@@ -1,4 +1,8 @@
- /* Bordered form */
+body {
+    background: url("../assets/img/snow.jpg") no-repeat;
+}
+ 
+/* Bordered form */
 form {
     border: 3px solid #f1f1f1;
 }
@@ -54,8 +58,10 @@ span.psw {
 
 /* The whole content for the portfolio */
 #content {
-    padding: 100px;
-    background-Color: lightgrey;
+padding: 100px;
+    height: 1400px;
+    width: 100%;
+    overflow: auto;
 }		
 
 
