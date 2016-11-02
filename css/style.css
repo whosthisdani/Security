@@ -31,18 +31,6 @@ button {
     background-color: #f44336;
 }
 
-/* Center the avatar image inside this container */
-.imgcontainer {
-    text-align: center;
-    margin: 24px 0 12px 0;
-}
-
-/* Avatar image */
-img.avatar {
-    width: 40%;
-    border-radius: 50%;
-}
-
 /* Add padding to containers */
 .container {
     padding: 16px;
@@ -54,6 +42,7 @@ span.psw {
     padding-top: 16px;
 }
 
+/* The "Logindenied" text */
 #logindenied {
     background-color: #f44336;
     color: white;
@@ -61,4 +50,39 @@ span.psw {
     margin: 8px 0;
     border: none;
     width: 100%!;
+}
+
+/* The whole content for the portfolio */
+#content {
+    padding: 100px;
+    background-Color: lightgrey;
+}		
+
+
+/* The text content for the portfolio */
+#portfolio {
+    padding: 50px;
+    background-Color: white;
+}
+
+#header {
+    padding: 20px;
+    background-Color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+#video{
+    background-color: white;
+    padding: 0px 50px 50px 50px;
+}
+
+#videopart1 {
+    margin-left: 7.5%;
+    float: left;
+}
+
+#videopart2	{
+margin-right: 7.5%;
+    float: right;
 }
